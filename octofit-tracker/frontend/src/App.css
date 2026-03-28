@@ -1,0 +1,113 @@
+
+body {
+  background: linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%);
+  min-height: 100vh;
+  color: #22223b;
+}
+
+.App {
+  text-align: center;
+  color: #22223b;
+}
+
+.navbar {
+  background: linear-gradient(90deg, #3a86ff 0%, #8338ec 100%) !important;
+  box-shadow: 0 2px 8px rgba(51, 51, 153, 0.08);
+}
+.navbar .navbar-brand {
+  color: #fff !important;
+  font-weight: bold;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+}
+.navbar .navbar-brand img {
+  height: 40px;
+  margin-right: 12px;
+}
+.navbar .nav-link {
+  color: #f1faee !important;
+  font-weight: 500;
+  margin-right: 8px;
+  transition: color 0.2s;
+}
+.navbar .nav-link:hover {
+  color: #ffd60a !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #3a0ca3;
+  font-family: 'Segoe UI', 'Arial', sans-serif;
+}
+
+.btn-primary, .btn-success, .btn-info, .btn-warning, .btn-danger {
+  border: none;
+  font-weight: 600;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 6px rgba(51, 51, 153, 0.08);
+  transition: background 0.2s, color 0.2s;
+}
+.btn-primary {
+  background: linear-gradient(90deg, #3a86ff 0%, #4361ee 100%);
+}
+.btn-success {
+  background: linear-gradient(90deg, #06d6a0 0%, #43aa8b 100%);
+}
+.btn-info {
+  background: linear-gradient(90deg, #00b4d8 0%, #48cae4 100%);
+}
+.btn-warning {
+  background: linear-gradient(90deg, #ffd60a 0%, #ffb703 100%);
+  color: #22223b;
+}
+.btn-danger {
+  background: linear-gradient(90deg, #ff006e 0%, #fb5607 100%);
+}
+.btn-lg {
+  font-size: 1.25rem;
+}
+
+.card {
+  border-radius: 1rem;
+  border: none;
+  box-shadow: 0 4px 16px rgba(51, 51, 153, 0.10);
+}
+.card-title {
+  font-weight: 700;
+}
+
+.table {
+  background: #fff;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(51, 51, 153, 0.06);
+}
+.table thead {
+  background: linear-gradient(90deg, #3a86ff 0%, #8338ec 100%);
+  color: #fff;
+}
+.table-striped > tbody > tr:nth-of-type(odd) {
+  background-color: #f1faee;
+}
+.table-bordered {
+  border: 2px solid #3a86ff;
+}
+
+a, .App-link {
+  color: #3a86ff;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+a:hover, .App-link:hover {
+  color: #ffbe0b;
+}
+
+/* Favicon and logo animation */
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
